@@ -30,7 +30,7 @@
       "package": "fi.tuni.tamk.tiko.busradarnative",
       "config": {
         "googleMaps": {
-          "apiKey": "API KEY GOES HERE"
+          "apiKey": "api key goes here"
         }
       }
     }
