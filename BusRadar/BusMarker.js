@@ -13,10 +13,6 @@ export default class BusMarker extends React.Component
         console.log(this.props.coordinates)
     }
 
-    componentDidMount() {
-        console.log("Mount");
-    }
-
     stopRendering = () =>
     {
         this.setState({ tracksViewChanges: false });
