@@ -1,19 +1,17 @@
 {
   "expo": {
-    "name": "Bus Radar Tampere",
+    "name": "Bus Monitor Tampere",
     "slug": "BusRadar",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash3.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +26,12 @@
     },
     "android": {
       "package": "fi.tuni.tamk.tiko.busradarnative",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAG"
+      ],
       "config": {
         "googleMaps": {
           "apiKey": "api key goes here"
